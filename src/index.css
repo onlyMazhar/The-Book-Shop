@@ -5,16 +5,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;400;500;600;700&display=swap');
 /* Font Plus Jakarta Sans */
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
-
-* {
+/* Font Prata */
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+ 
+body,
+.bg-all {
   background-color: #EAE8DF;
 }
 
 .title-font {
-  font-family: "Cormorant Unicase", serif;
+  /* font-family: "Cormorant Unicase", serif;
+  font-style: normal; */
+  font-family: "Prata", serif;
+  font-weight: 400;
   font-style: normal;
 }
+
+
 
 .all-text {
   font-family: "Plus Jakarta Sans", sans-serif;
 }
+

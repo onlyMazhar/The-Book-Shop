@@ -5,7 +5,7 @@ import './Footer.css'
 
 const Footer = () => {
     return (
-        <footer className=" all-text sm:footer-horizontal bg-neutral pt-10 px-2">
+        <footer className="bg-all all-text sm:footer-horizontal bg-neutral pt-10 px-2">
 
             <div className='container flex flex-col md:flex-row gap-5 justify-between text-[#777777] uppercase  mx-auto'>
 
@@ -45,7 +45,7 @@ const Footer = () => {
                 </nav>
 
             </div>
-            <div className='flex  text-left md:text-center mt-5 md:mt-20 border-t-1 container mx-auto justify-around     border-t-[#e0e0e0] text-[#777777] pt-5 pb-5'>
+            <div className='flex  text-left md:text-center mt-5 md:mt-10 border-t-1 container mx-auto justify-around     border-t-[#e0e0e0] text-[#777777] pt-5 pb-5'>
                 <p className='text-[.75rem]'>© 2025 BookShop. All rights reserved.</p>
                 <div className='space-x-4 text-[.75rem]'>
                     <a className="link link-hover">Privacy Policy</a>
