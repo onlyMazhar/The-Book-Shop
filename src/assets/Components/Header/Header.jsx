@@ -2,6 +2,11 @@ import React from 'react';
 import '../../../index.css'
 import './Header.css'
 import { NavLink } from 'react-router';
+import { CiFacebook } from 'react-icons/ci';
+import { FaInstagram } from 'react-icons/fa';
+import { FaXTwitter } from 'react-icons/fa6';
+import { TiSocialLinkedinCircular } from 'react-icons/ti';
+import { RiBloggerFill } from 'react-icons/ri';
 
 const Header = () => {
 
@@ -16,7 +21,13 @@ const Header = () => {
         <div className="all-text  shadow-sm">
             <div className='hidden md:flex  border-b-1 border-b-[#e0e0e0] '>
                 <div className='hidden md:flex   text-left md:text-center container mx-auto justify-between py-2  text-[#777777]'>
-                    <p className='text-[.75rem]'>© 2025 BookShop. All rights reserved.</p>
+                    <div className='flex space-x-4 text-[.75rem]'>
+                        <a className="link link-hover"><CiFacebook /></a>
+                        <a className="link link-hover"><FaInstagram /></a>
+                        <a className="link link-hover"><FaXTwitter /></a>
+                        <a className="link link-hover"> <TiSocialLinkedinCircular /></a>
+                        <a className="link link-hover"><RiBloggerFill /> </a>
+                    </div>
                     <div className='space-x-4 text-[.75rem] w-[20%] flex justify-around'>
                         <a className="link link-hover">Account</a>
                         <a className="link link-hover">Cart:(0$)</a>

@@ -2,6 +2,11 @@ import React from 'react';
 import '../../../index.css'
 
 import './Footer.css'
+import { CiFacebook } from 'react-icons/ci';
+import { FaInstagram } from 'react-icons/fa';
+import { FaXTwitter } from 'react-icons/fa6';
+import { TiSocialLinkedinCircular } from 'react-icons/ti';
+import { RiBloggerFill } from 'react-icons/ri';
 
 const Footer = () => {
     return (
@@ -47,9 +52,12 @@ const Footer = () => {
             </div>
             <div className='flex  text-left md:text-center mt-5 md:mt-10 border-t-1 container mx-auto justify-around     border-t-[#e0e0e0] text-[#777777] pt-5 pb-5'>
                 <p className='text-[.75rem]'>© 2025 BookShop. All rights reserved.</p>
-                <div className='space-x-4 text-[.75rem]'>
-                    <a className="link link-hover">Privacy Policy</a>
-                    <a className="link link-hover">Join Us</a>
+                <div className='flex space-x-4 text-[.75rem]'>
+                    <a className="link link-hover"><CiFacebook /></a>
+                    <a className="link link-hover"><FaInstagram /></a>
+                    <a className="link link-hover"><FaXTwitter /></a>
+                    <a className="link link-hover"> <TiSocialLinkedinCircular /></a>
+                    <a className="link link-hover"><RiBloggerFill/> </a>
                 </div>
             </div>
 
